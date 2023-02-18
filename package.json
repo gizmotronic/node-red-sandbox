@@ -2,7 +2,10 @@
     "name": "home-automation",
     "description": "The big Node-RED home automation project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-credentials": "0.2.2",
+        "node-red-contrib-unit-converter": "0.0.3"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
